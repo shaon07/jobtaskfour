@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Inter", sans-serif;
+}
+.mainNavbar {
+  background-color: #703dc1;
+  color: white;
+}
+ul.navbar-nav.navText li a {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.login_nav {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 0px 10px;
+}
+li.nav-item.login_nav a span {
+  padding-left: 5px;
+}
+li.nav-item.nav_trial {
+  background: #511ea0;
+  margin: 0 10px;
+  padding: 2px 5px;
+  border-radius: 23px;
+}
+li.nav-item.nav_trial a span i {
+  color: #dd509a;
+  font-size: 15px;
+  background: white;
+  border-radius: 15px;
+}
+
+/* hero section css  */
+.mainHero {
+  background: #703dc1f0;
+  color: white;
+}
+.hero_text h2 {
+  font-size: 2.5rem;
+}
+.hero_break {
+  background: #511ea0;
+  height: 5px;
+  width: 50%;
+  margin: 25px 0;
+}
+li#hero_button {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 15px;
+}
+li#hero_button {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 15px 0;
+  background: #6ad2f1;
+  color: #703dc1f0;
+  font-weight: 600;
+}
+
+/* card section css  */
+
+.mainCard {
+  background: #8352d1f0;
+}
+.card_text {
+  display: flex;
+  padding-top: 4rem;
+  color: white;
+}
+.card_text div img {
+  height: 5rem;
+  padding: 5px;
+}
+.card_texts h3 {
+  padding: 0;
+  line-height: 0;
+}
+
+.card_texts p {
+  line-height: 1;
+  padding-top: 10px;
+}
+.mainCardText.bg-white.p-3 {
+  border-radius: 7px;
+}
+.card_texts_bottom p > span {
+  font-weight: bold;
+}
+.card_texts_bottom p {
+  font-weight: 400;
+}
+.card_texts_bottom span i {
+  font-size: 25px;
+  color: red;
+}
+
+/* industry section css  */
+
+.industry_text {
+  border-left: 10px solid #703dc1f0;
+  padding-left: 1.5rem;
+  border-radius: 3px;
+}
+.industry_link {
+  display: flex;
+  justify-content: end;
+}
+.industry_link a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #511ea0;
+}
+
+/* card pill section css  */
+
+.mainCardPills {
+  background: #6ad2f1;
+}
+.cardPill {
+  border-radius: 15px;
+}
+.cardPillText h3 {
+  font-size: 17px;
+  color: #511ea0;
+}
+
+.cardTextStar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+h3.cardTextStar span img {
+  padding-left: 10px;
+}
+.cardPillText h4 {
+  font-size: 1rem;
+  color: #511ea0;
+  font-weight: 400;
+}
+img.pillImg {
+  height: 6.5rem;
+}
+
+/* brand text css  */
+
+.brandTexts h5 {
+  font-size: 15px;
+  color: #23216e;
+  font-weight: bold;
+}
+
+.brandTexts img {
+  width: 30px;
+  margin: 0 10px;
+}
+.brandTexts {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h3.text-center.brand_heading {
+  font-size: 24px;
+  width: 70%;
+  display: inline-block;
+  margin: 30px auto;
+}
+.mainBrandSec {
+  border-bottom: 27px solid #6ad2f1;
+}
+
+/* pain heading css  */
+
+.pain_heading h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #511ea0;
+}
+.pain_heading h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #511ea0;
+}
+.pain_heading h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #511ea0;
+}
+.pain_heading div {
+  width: 60%;
+}
+.pain_heading p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  line-height: 1.5;
+  margin: 2rem 0;
+}
+li#painButton {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+}
+li#painButton a span {
+  padding: 10px;
+}
+
+li#painButton a span i {
+  font-size: 20px;
+}
+
+/* discover section css  */
+
+.mainDiscover {
+  background: url(../images/discover.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 20rem !important;
+}
+
+.discover_card_one {
+  background: #6ad2f1;
+}
+.discover_box_one p {
+  color: white;
+  font-weight: 500;
+}
+.discover_box_one h3 {
+  color: white;
+  font-weight: 600;
+}
+.discover_box_one {
+  width: 50%;
+  padding: 3rem;
+}
+
+.discover_card_two {
+  background: url(../images/discover2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  left: 4rem;
+  top: 9.5rem;
+}
+.discover_card_two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(154, 54, 163, 0.71);
+  z-index: -1;
+}
+.discover_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 7rem;
+  /* background: rgba(154, 54, 163, 0.71); */
+  color: white;
+}
+.discover_content span i {
+  background: rgba(255, 255, 255, 0.34);
+  font-size: 2rem;
+  padding: 15px 22px;
+  border-radius: 50%;
+  margin: 12px 0;
+}
+.discover_card_one {
+  background: #6ad2f1;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+
+/* main content css  */
+
+.mainContentIcon img {
+  width: 20%;
+}
+.mainContentShare {
+  position: relative;
+  text-align: center;
+  padding-bottom: 8rem;
+}
+.mainContentIcon.text-center {
+  background: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  margin-top: -9rem;
+}
+.mainContentIcon.text-center img {
+  width: 70%;
+}
+.content_share_text {
+  width: 70%;
+  text-align: left;
+}
+.content_share_text h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  color: #511ea0;
+}
+.content_list ul li {
+  list-style: none;
+  text-align: left;
+}
+.content_list ul li {
+  color: grey;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 5px 0;
+}
+.content_first span {
+  color: #511ea0;
+  font-weight: 500;
+}
+.content_text p {
+  font-size: 17px;
+}
+
+.content_text {
+  background: rgba(112, 61, 193, 0.94);
+  padding: 2rem;
+  color: white;
+  text-align: left;
+}
+
+/* benefit section css  */
+
+.mainBenefit {
+  background: #7f57f1;
+  text-align: center;
+  position: relative;
+}
+.benefit_image img {
+  width: 80%;
+  padding: 0;
+  margin-top: -8rem;
+}
+
+.benefit_image {
+  display: inline-block;
+}
+.benefit_content h6 {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.benefit_content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.benefit_content h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 67px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.benefit_content {
+  display: inline-block;
+  width: 80%;
+}
+.benefit_box {
+  background: #511ea0;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  color: white;
+}
+.benefit_text_heading h6 {
+  font-weight: bold;
+}
+
+.benefit_text_heading h5 {
+  font-weight: bold;
+  width: 50% !important;
+  line-height: 1.5;
+}
+.benefit_text_heading h3 {
+  color: rgba(112, 61, 193, 0.94);
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.container-fluid.pt-5.benefit-second-div {
+  border-bottom: 4rem solid #7f57f1;
+}
+
+/* clients section css  */
+
+.mainPeople {
+  margin-bottom: 3rem;
+}
+
+.mainClient {
+  background: #703dc1f0;
+  padding: 0 2rem;
+  position: relative;
+}
+.clientCard {
+  padding: 2.5rem 1rem;
+  box-shadow: 0 0 5px #8080808c;
+}
+.clientPhoto {
+  display: flex;
+  align-items: center;
+}
+.clientPhoto {
+  display: flex;
+  align-items: center;
+}
+.clientText h5 {
+  font-size: 15px;
+  line-height: 6px;
+  color: #511ea0;
+}
+.client_cards {
+  position: relative;
+  top: -6rem;
+}
+
+.clientPhoto img {
+  width: 70%;
+}
+
+/* plate section css  */
+
+.mainPlate {
+  background: #8352d1f0;
+  color: white;
+}
+.plate-text h2 {
+  width: 65%;
+  font-size: 2.3rem;
+  padding: 1rem 0;
+}
+
+.plate-text h5 {
+  font-size: 1rem;
+}
+.plate-text a span i {
+  font-size: 20px;
+  padding: 0 2px;
+  color: #dd509a;
+}
+
+.plate-text a {
+  color: white;
+  text-decoration: none;
+  background: #6ad2f1;
+  padding: 5px 16px;
+  border-radius: 25px;
+}
+
+/* footer section css  */
+
+.mainFooter {
+  background: #511ea0;
+  color: white;
+}
+.footer_icons span i {
+  font-size: 1.4rem;
+  padding-right: 10px;
+}
+.footer_text_box_one h5 {
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer_text_box_one h3 {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
